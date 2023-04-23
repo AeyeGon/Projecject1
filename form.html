@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<style>
+    body{
+        background-color: lightcoral;
+    }
+    .container{  
+        padding: 0%;     
+    }
+    .row{
+        padding: 10px;
+        border: solid lightpink;
+        background-color: black;
+        color: aliceblue;
+    }
+    .header{
+        background-color: rgba(36, 191, 70, 0.623);
+    }
+    .topnav{
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.603);
+    }
+    .topnav a{
+        text-decoration: none;
+        padding: 10px;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .footer{
+        background-color: rgba(0, 0, 0, 0.829);
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+        color: antiquewhite;
+    }
+</style>
+</head>
+<body>
+    <header class="header text-center p-1">
+        <h1>Welcome to Juhfeb Car Rental</h1>
+        <p>Everyone deserves a little break</p>
+    </header>
+    <nav>
+        <div class="topnav text-center">
+          <a class="active" href="Index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="#contact">Contact</a>
+          <a href="#about us">About Us</a>
+        </div>
+    </nav>
+    <form>
+        <div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-2">
+                        <label for="date-rented" class="form-label">Date Rented</label>
+                        <input type="date" class="form-control" id="date-rented">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="time-rented" class="form-label">Time Rented</label>
+                        <input type="time" class="form-control" id="time-rented">
+                    </div>   
+                    <div class="col-md-2">
+                        <label for="date-returned" class="form-label">Date Returned</label>
+                        <input type="date" class="form-control" id="date-rented">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="time-returned" class="form-label">Time Returned</label>
+                        <input type="time" class="form-control" id="time-returned">
+                    </div>
+                    <p></p>
+                    <div class="col-md-6">
+                        <label for="inputname" class="form-label">Renter Name:</label>
+                        <input type="text" class="form-control" id="inputname">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputaddress" class="form-label">Adress:</label>
+                        <input type="text" class="form-control" id="inputadress">
+                    </div>
+                    <p></p>
+                    <div class="col-md-2">
+                        <label for="inputnumber" class="form-label">Contact Number:</label>
+                        <input type="text" class="form-control" id="inputnumber">
+                    </div>
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputid" class="form-label">Valid ID's:</label>
+                        <input type="text" class="form-control" id="inputid">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inpuidnumber" class="form-label">ID Number:</label>
+                        <input type="text" class="form-control" id="inputidnumber">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputexpiry" class="form-label">Expiry Date:</label>
+                        <input type="text" class="form-control" id="inputexpiry">
+                    </div>
+                    <p></p>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="pick-up" name="car">
+                        <label for="pick-up">Pick Up</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="Deliver" name="car">
+                        <label for="Deliver">Deliver</label>
+                    </div>
+                    <div class="col-4">
+                        <label for="inputdelivery" class="form-label">Delivery Location:</label>
+                        <input type="text" class="form-control" id="inputdelivery">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="button text-center mt-5">
+        <a class="btn btn-primary" href="Index.html" role="button">Confirm My Booking</a>
+    </div>
+    <br>
+    <footer>
+        <div class="footer">
+            <h4>Thanks for Trusting Juhfeb Car Retal</h4>
+        </div>
+    </footer>  
+</body>
+</html>
